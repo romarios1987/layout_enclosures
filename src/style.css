@@ -1,11 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background-color: #000;
   padding: 20px;
+  margin: 0;
 }
 
 .block {
@@ -14,16 +10,20 @@ body {
   box-sizing: border-box;
 }
 
-.blue-border {
+.wrapper-block {
   width: 350px;
   background-color: #308dc0;
   margin-bottom: 40px;
 }
 
-.yellow-border {
+.inner-block {
   background-color: #ffa500;
 }
 
-.text-block {
+.content-block {
   background-color: #ddd;
+}
+
+.content-block p {
+  margin: 0;
 }
